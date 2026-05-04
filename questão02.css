@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+    color: #333;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    width: 270px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #7f8c8d;
+}
+
+.card ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 8px;
+    transition: 0.2s;
+}
+
+.card li:hover {
+    color: #2980b9;
+}
+
+details {
+    margin-top: 15px;
+    background: #f1f6fb;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #d6e4f0;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+details p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+#btnProximo {
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #2980b9;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btnProximo:hover {
+    background: #1f6391;
+}
