@@ -1,0 +1,60 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* NAV */
+nav {
+    background: #dceeff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #003366;
+    font-size: 18px;
+}
+
+/* SEÇÕES */
+.secao {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* TÍTULOS */
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #004080;
+    text-align: center;
+}
+
+/* PARÁGRAFOS */
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* BOTÃO */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
