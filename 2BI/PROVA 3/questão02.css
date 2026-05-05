@@ -1,0 +1,59 @@
+body {
+    background-color: #eef5ff; /* fundo suave */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* NAV */
+nav {
+    background: #dbe9ff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #003366;
+}
+
+/* SEÇÕES */
+.secao {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* TÍTULOS */
+h2 {
+    font-size: 26px; /* destaque */
+    font-weight: bold;
+    color: #004080;
+    text-align: center;
+}
+
+/* TEXTO */
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* BOTÃO */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
